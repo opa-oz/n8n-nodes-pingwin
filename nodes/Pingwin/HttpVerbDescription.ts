@@ -21,7 +21,7 @@ export const httpVerbOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'GET',
-						url: '=/ping?service={{$parameter.name}}&path={{$parameter.path}}',
+						url: '=?service={{$parameter.name}}&path={{$parameter.path}}',
 					},
 				},
 			},
@@ -35,7 +35,7 @@ const pingOperation: INodeProperties[] = [
 		displayName: 'Service',
 		name: 'name',
 		default: 'test',
-		description: '/ping/service=&lt;name&gt;',
+		description: '?service=&lt;name&gt;',
 		displayOptions: {
 			show: {
 				resource: ['by_name'],
@@ -49,7 +49,7 @@ const pingOperation: INodeProperties[] = [
 		displayName: 'Path',
 		name: 'path',
 		default: 'default',
-		description: '/ping/service=&lt;name&gt;&path=&lt;path&gt;',
+		description: '?service=&lt;name&gt;&path=&lt;path&gt;',
 		displayOptions: {
 			show: {
 				resource: ['by_name'],

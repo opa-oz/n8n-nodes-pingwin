@@ -31,7 +31,7 @@ export class PingwinApi implements ICredentialType {
 	test: ICredentialTestRequest = {
 		request: {
 			baseURL: '={{$credentials?.domain}}',
-			url: '/ping?service=test-n8n',
+			url: '?service=test-n8n',
 		},
 	};
 }

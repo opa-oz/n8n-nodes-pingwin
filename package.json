@@ -1,19 +1,19 @@
 {
   "name": "n8n-nodes-pingwin",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Pingwin caller package",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/opa-oz/n8n-nodes-healthchecks",
+  "homepage": "https://github.com/opa-oz/n8n-nodes-pingwin",
   "author": {
     "name": "Vladimir Levin",
     "email": "opaozhub@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/opa-oz/n8n-nodes-healthchecks.git"
+    "url": "https://github.com/opa-oz/n8n-nodes-pingwin.git"
   },
   "main": "index.js",
   "scripts": {
